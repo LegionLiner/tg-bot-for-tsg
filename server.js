@@ -1,4 +1,4 @@
-const token = "5283022542:AAEJIHViWYV1-eZ3aYmxTeyNBmV-jkL6fZY"
+const token = ""
 const TelegramBot = require("node-telegram-bot-api")
 const bot = new TelegramBot(token, {polling: true});
 const {readFile} = require("fs");
